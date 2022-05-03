@@ -7,48 +7,52 @@
     text-decoration: none;
   }
   
-              html, body {
-                  width: 100%;
-                  height:100%;
-              }
+            html, body {
+                width: 100%;
+                height:100%;
+            }
 
-                            .cabecalho{
-                            display: flex;
-                            flex-direction: row;
-                            align-items: center;
-                            justify-content: space-around;
-                            width: 100%;
-                            height: 76px;
-                            padding-top: 6px;
-                            background-color: black;
-                            }
+
+                                .cabecalho {
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+                                    justify-content: space-around;
+                                    width: 100%;
+                                    height: 76px;
+                                    padding-top: 6px;
+                                    background-color: black;
+                                }
+
 
                                         .cabecalho-imagem {
-                                        height: 72px;
-                                        width: auto;
+                                            height: 72px;
+                                            width: auto;
                                         }
 
                                         .cabecalho-navegacao {
-                                        display: flex;
-                                        gap: 39px;
-                                        color: #fff;
-                                        font-size: 30px;
-                                        font-weight: 700;
+                                            display: flex;
+                                            gap: 39px;
+                                            color: #fff;
+                                            font-size: 30px;
+                                            font-weight: 700;
                                         }
 
                                         .navegacao-menu {
-                                        font-family: 'Sarala', sans-serif;
-                                        color: #fff;
-                                        font-weight: 400;
-                                        font-size: 23px;
+                                            font-family: 'Sarala', sans-serif;
+                                            color: #fff;
+                                            font-weight: 400;
+                                            font-size: 23px;
                                         }
 
+
                                 .conteudo {
-                                margin-bottom: 48px;
-                                border-top: 0.4px solid #4c231b;
+                                    margin-bottom: 48px;
+                                    border-top: 0.4px solid #4c231b;
                                 }
 
-                                .conteudo-extra {
+
+                                    .conteudo-extra {
                                         font-size: 100%;
                                         background: linear-gradient(-45deg, #dbdbdb, #bb9d92, #d22b284e, #d12d0061);
                                         background-size: 400% 400%;
@@ -56,7 +60,7 @@
                                         padding-bottom: 130px;
                                         padding-top: 30px;
                                         border-radius: 0px 502px 50px 502px;
-                                        }
+                                    }
                                         @keyframes gradient {
                                             0% {
                                                 background-position: 0% 50%;
@@ -67,9 +71,9 @@
                                             100% {
                                                 background-position: 0% 50%;
                                             }
-                                        }
-                                
-                                        
+                                        }     
+
+
                                         .conteudo-extra-escrito-titulo {
                                             font-family: 'Righteous', cursive;
                                             color: #4c231b;
@@ -78,7 +82,8 @@
                                             font-size: 47px;
                                             padding-top: 70px;
                                         }
-                                        .conteudo-extra-escrito-paragrafo{
+
+                                        .conteudo-extra-escrito-paragrafo {
                                             font-family: 'Sarala', sans-serif;
                                             text-align: center;
                                             color: #262626;
@@ -89,61 +94,67 @@
                                             padding-left: 25%;
                                         }
 
-                                .conteudo-principal {
-                                display: flex;
-                                flex-direction: row;
-                                align-items: center;
-                                justify-content: space-around;
-                                margin-right: 120px;
-                                margin-left: 90px;
-                                }
-                                                .conteudo-principal-escrito {
-                                                    display: flex;
-                                                    flex-direction: column;
-                                                    flex-wrap: wrap;
-                                                    flex-basis: 460px;
-                                                }
-                                                
-                                                .conteudo-principal-escrito-titulo {
-                                                    font-family: 'Righteous', cursive;
-                                                    font-weight: 400;
-                                                    font-size: 55px;
-                                                    text-align: center;
-                                                    color: #4c231b;
-                                                }
-                                                
-                                                .conteudo-principal-escrito-paragrafo {
-                                                    font-family: 'Sarala', sans-serif;
-                                                    font-weight: 400;
-                                                    font-size: 20px;
-                                                    line-height: 97%;
-                                                    text-align: center;
-                                                    color: #262626;
-                                                }
-                                .conteudo-final {
-                                display: flex;
-                                flex-direction: row;
-                                align-items: center;
-                                justify-content: space-around;
-                                font-size: 100%;
-                                background: linear-gradient(-45deg, #ffffff9a, #ffdddd61, #ffb2b22f, #b9a3a334);
-                                background-size: 400% 400%;
-                                animation: gradient 15s ease infinite;
-                                padding-bottom: 20px;
-                                padding-top: 20px;
-                                border-radius: 50px 502px 0px 502px;
+
+                                    .conteudo-principal {
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                        justify-content: space-around;
+                                        margin-right: 120px;
+                                        margin-left: 90px;
                                     }
-                                    @keyframes gradient {
-                                        0% {
-                                            background-position: 0% 50%;
+
+
+                                        .conteudo-principal-escrito {
+                                            display: flex;
+                                            flex-direction: column;
+                                            flex-wrap: wrap;
+                                            flex-basis: 460px;
                                         }
-                                        50% {
-                                            background-position: 100% 50%;
+                                                
+                                            .conteudo-principal-escrito-titulo {
+                                                font-family: 'Righteous', cursive;
+                                                font-weight: 400;
+                                                font-size: 55px;
+                                                text-align: center;
+                                                color: #4c231b;
+                                            }
+                                                
+                                            .conteudo-principal-escrito-paragrafo {
+                                                font-family: 'Sarala', sans-serif;
+                                                font-weight: 400;
+                                                font-size: 20px;
+                                                line-height: 97%;
+                                                text-align: center;
+                                                color: #262626;
+                                            }
+
+
+                                        .conteudo-final {
+                                            display: flex;
+                                            flex-direction: row;
+                                            align-items: center;
+                                            justify-content: space-around;
+                                            font-size: 100%;
+                                            background: linear-gradient(-45deg, #ffffff9a, #ffdddd61, #ffb2b22f, #b9a3a334);
+                                            background-size: 400% 400%;
+                                            animation: gradient 15s ease infinite;
+                                            padding-bottom: 20px;
+                                            padding-top: 20px;
+                                            border-radius: 50px 502px 0px 502px;
                                         }
-                                        100% {
-                                            background-position: 0% 50%;
-                                        }
-                                    }
+                                            @keyframes gradient {
+                                                0% {
+                                                background-position: 0% 50%;
+                                                    }
+                                                50% {
+                                                background-position: 100% 50%;
+                                                    }
+                                                100% {
+                                                background-position: 0% 50%;
+                                                }
+                                            }
+
                             
                                                 .conteudo-final-escrito {
                                                     display: flex;
