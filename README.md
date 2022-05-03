@@ -11,10 +11,12 @@ I.	Tenha uma página inicial que apresente:
           i.	localização geográfica, 
           ii.	população.
           iii.	Principais atividades econômicas/riquezas
-    b.	A Copa do Mundo
+          
+    b.	A Copa do Mundo:
           i.	Quantas seleções participam
           ii.	Desde quando existe este evento
           II.	Na página inicial deve haver um menu com links para 
+          
                   a.	As seleções. Para cada seleção apresente:
                         i.	Quantas copas já participou
                         ii.	Quais premiações alcançou nas Copas do Mundo
@@ -34,7 +36,7 @@ I.	Tenha uma página inicial que apresente:
                               3.	Grupo/Seleções
                   c.	Os grupos. Para cada grupo deve apresentar:
                         i.	As seleções que fazem parte desse grupo
-                        ii.	Tabela com os jogos
+                        ii.	Tabela com os jogos:
                               1.	Data/Hora
                               2.	Estádio
                               3.	Times
