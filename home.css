@@ -126,7 +126,7 @@
                                 align-items: center;
                                 justify-content: space-around;
                                 font-size: 100%;
-                                background: linear-gradient(-45deg, #e7e7e744, #ebebeb4b, #dcdcdc51, #efefef34);
+                                background: linear-gradient(-45deg, #ffffff9a, #ffdddd61, #ffb2b22f, #b9a3a334);
                                 background-size: 400% 400%;
                                 animation: gradient 15s ease infinite;
                                 padding-bottom: 20px;
