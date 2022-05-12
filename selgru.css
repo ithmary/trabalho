@@ -72,6 +72,26 @@
                                             background-position: 0% 50%;
                                             }
                                         }
+                                        .conteudo-extra {
+                                            font-size: 100%;
+                                            background: linear-gradient(-45deg, #dbdbdb, #bb9d92, #d22b284e, #d12d0061);
+                                            background-size: 400% 400%;
+                                            animation: gradient 15s ease infinite;
+                                            padding-bottom: 130px;
+                                            padding-top: 30px;
+                                            border-radius: 0px 502px 50px 502px;
+                                        }
+                                            @keyframes gradient {
+                                                0% {
+                                                    background-position: 0% 50%;
+                                                }
+                                                50% {
+                                                    background-position: 100% 50%;
+                                                }
+                                                100% {
+                                                    background-position: 0% 50%;
+                                                }
+                                            }   
 
 
                                         .conteudo-extra-escrito-titulo {
